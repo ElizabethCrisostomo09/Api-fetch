@@ -1,0 +1,22 @@
+{
+  "name": "api-fetch",
+  "version": "1.0.0",
+  "description": "Get users \r https://apifetch-eli.netlify.app/",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethCrisostomo09/Api-fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizabethCrisostomo09/Api-fetch/issues"
+  },
+  "homepage": "https://github.com/ElizabethCrisostomo09/Api-fetch#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
