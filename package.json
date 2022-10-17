@@ -4,7 +4,8 @@
   "description": "Get users \r https://apifetch-eli.netlify.app/",
   "main": "javascript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdirp ./dist/ && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/bootstrap.min.css && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/bootstrap.bundle.min.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/ElizabethCrisostomo09/Api-fetch#readme",
   "dependencies": {
     "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
   }
 }
