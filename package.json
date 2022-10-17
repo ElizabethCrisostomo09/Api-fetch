@@ -5,7 +5,7 @@
   "main": "javascript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "mkdirp ./dist/ && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/bootstrap.min.css && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/bootstrap.bundle.min.js cp index.html ./dist/index.html && cp javascript.js ./dist/javascript.js && cp style.css ./dist/style.css "
+    "postinstall": "mkdirp ./dist/ && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/bootstrap.min.css && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./dist/bootstrap.bundle.min.js && cp index.html ./dist/index.html && cp javascript.js ./dist/javascript.js && cp style.css ./dist/style.css "
   },
   "repository": {
     "type": "git",
